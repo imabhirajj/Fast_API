@@ -27,8 +27,17 @@ def create_note(note: CreateNote):
 
     return db_note
 
-@app.get("/notes")
+@app.get("/notes") # to get all Note
 def get_notes():
     with Session(engine) as session:
         notes = session.exec(select(Note)).all()
     return notes
+
+@app.get("/notes/{note_id}") # to get particular note object
+def get_note(note_id: int):
+    with Session(engine) as session:
+        note = session.exec(
+            select(Note).where(Note.id == note_id)
+        ).first()
+
+    return note
