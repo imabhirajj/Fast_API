@@ -13,7 +13,6 @@ create_db_and_tables()
 
 @app.post("/notes")
 def create_note(note: CreateNote):
-
     db_note = Note(
         title=note.title,
         description=note.description,
