@@ -16,10 +16,14 @@ This repository tracks my daily learning progress as I build API projects using 
 - **Topics**: Models separation (`Note` and `CreateNote`), database persistence differences (RAM vs SQLite storage using commit), SQLModel filter operations (`select`, `where`, `first`, `all`).
 - **Built**: Extended the notes API with detailed persistence logic and a route to fetch a single note by ID (`GET /notes/{note_id}`).
 
+### [Day 3 - Complete CRUD API](./day_03_complete_crud_api/README.md)
+- **Topics**: Complete CRUD operations (POST, GET, PUT, DELETE), SQLModel interaction (session `delete`, `commit`, `refresh`), API project architecture.
+- **Built**: A full CRUD API for managing notes, supporting creating, listing, retrieving by ID, updating, and deleting notes, fully testable via Swagger UI.
+
 ---
 
 ## 🛠️ Next Steps
-- Implement PUT and DELETE operations.
 - Add robust error handling.
 - Incorporate FastAPI's Dependency Injection.
 - Implement Authentication & Authorization.
+
