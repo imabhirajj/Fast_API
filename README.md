@@ -20,10 +20,21 @@ This repository tracks my daily learning progress as I build API projects using 
 - **Topics**: Complete CRUD operations (POST, GET, PUT, DELETE), SQLModel interaction (session `delete`, `commit`, `refresh`), API project architecture.
 - **Built**: A full CRUD API for managing notes, supporting creating, listing, retrieving by ID, updating, and deleting notes, fully testable via Swagger UI.
 
+### [Day 4 - HTTPException and Error Handling](./day_04_http_exception_and_error_handling/README.md)
+- **Topics**: HTTPExceptions, Error Handling, API error responses.
+- **Built**: Integrated HTTPException handling to return 404 responses for missing resources during read, update, and delete operations.
+
+### [Day 5 - Response Models and Dependency Injection](./day_05_Response_Models_And_Dependency_Injection/ReadMe.md)
+- **Topics**: Response Models, Dependency Injection (`Depends`), cleaner database session management.
+- **Built**: Refactored the notes API to use structured response models and custom database session dependencies.
+
+### [Day 7 - Path Parameters & Query Parameters](./day_06_project_structure/README.md)
+- **Topics**: Path parameters (syntax, typing, Path validation), query parameters (syntax, default values, Query validation), differences, real-world use cases, best practices.
+- **Built**: Documented comprehensive guides on path and query parameters with practice exercises.
+
 ---
 
 ## 🛠️ Next Steps
-- Add robust error handling.
-- Incorporate FastAPI's Dependency Injection.
 - Implement Authentication & Authorization.
+
 
